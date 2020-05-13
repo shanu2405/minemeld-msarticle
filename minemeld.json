@@ -1,15 +1,15 @@
 {
   "version": "0.1",
-  "name": "ms-article-miner",
-  "author": "Xavier Homs",
-  "author_email": "xhoms@paloaltonetworks.com",
-  "description": "Miner to process csv documents from MS Article site",
+  "name": AzureChinaJSON",
+  "author": "Shahnawaz Alam",
+  "author_email": "shanu2405@gmail.com",
+  "description": "Miner to process JSON documents from Azure China",
   "entry_points": {
     "minemeld_nodes": {
-      "MSArticle.Miner": "MSArticle.node:Miner"
+      "minemeld.ft.azure.AzureChinaJSON": "minemeld.ft.azure:AzureChinaJSONr"
     },
     "minemeld_prototypes": {
-      "MSArticle.prototypes": "MSArticle:prototypes"
+      "minemeld.ft.azure.AzureJSON": "minemeld.ft.azure:AzureJSON"
     }
   },
   "manifest_version": 0
